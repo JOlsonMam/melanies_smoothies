@@ -9,6 +9,8 @@ st.write(
   """
 )
 
+import streamlit as st
+
 name_on_order = st.text_input("Name on smoothie:")
 st.write("The name on the smoothie will be:", name_on_order)
 
